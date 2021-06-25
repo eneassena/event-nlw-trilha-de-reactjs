@@ -27,7 +27,8 @@
 
 ## A primeira é a página inicial, você pode acessar com uma conta google, ou inserir o código de uma sala já existente.
 <img src="src/assets/prints/nlw-1.png" alt="página principal do site">
-#
+
+
 
 ## Nesta segunda página percebe-se que já entramos na sala, e já é possível fazer, perguntas e da likes nas perguntas.
 <img src="src/assets/prints/nlw-2.png" alt="página da sala"><br>
