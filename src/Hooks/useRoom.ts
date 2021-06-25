@@ -1,7 +1,11 @@
+// serviços
 import { useEffect, useState } from "react";
 import { database } from "../services/firebase";
 import { useAuth } from "./useAuth";
 
+/**
+ * Modelo dos dados que são retornados do banco de dados(firebase)
+ */
 type firebaseQuestions = Record<string, {
   author: {
     name: string;
@@ -14,7 +18,10 @@ type firebaseQuestions = Record<string, {
     authorId: string;
   }>
 }>;
- 
+
+/**
+ * Tipagem de estado das questions
+ */
 type QuestionProps ={
   id: string;
   author: {
@@ -26,21 +33,19 @@ type QuestionProps ={
   isHighlighted: boolean;
   likeCount: number;
   likeId: string | undefined;
-
 }
 
+// Hook useRoom
 export function useRoom(roomId: string) {
   const { user } = useAuth();
   const [question, setQuestion] = useState<QuestionProps[]>([]);
   const [title, setTitle] = useState('');
 
-  
   // recupera as pergunta no banco de dados
   useEffect(() => { 
     const roomRef = database.ref(`rooms/${roomId}`);
     
     roomRef.on('value', room => {
-      // console.log(`${room.val().question}`);
       const databaseRoom = room.val();
       const firebaseQuestions: firebaseQuestions = databaseRoom.question ?? {};
       const parsedQuestions = Object.entries(firebaseQuestions).map(([key, value]) => {
@@ -63,4 +68,5 @@ export function useRoom(roomId: string) {
   }, [roomId, user?.id]);
 
   return { question, title }
-}
+
+} // end useRoom

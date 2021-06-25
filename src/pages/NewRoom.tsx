@@ -1,3 +1,4 @@
+// serviços
 import { FormEvent, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
@@ -12,7 +13,7 @@ import { Button } from '../components/Button';
 import { useAuth } from '../Hooks/useAuth';
 
 
-
+// Component NewRoom
 export function NewRoom () {
   const history = useHistory();
   const { user } = useAuth();
