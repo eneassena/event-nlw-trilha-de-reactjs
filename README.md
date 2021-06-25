@@ -39,3 +39,15 @@
 ## Notamos nessa página que quando o dono da sala marca uma pergunta, todos o usuários que estão na sala podem ver que a pergunta esta sendo respondida ou visualizada.
 <img src="src/assets/prints/nlw-4.png" alt="página da sala refletindo mudanças de ações do administrador">
 
+
+## Para usar o projeto :
+```bash
+cd event-nlw-trilha-de-reactjs
+yarn start
+```
+
+## Caso não tenha instalado as dependencias do projeto:
+```bash
+npm install
+yarn start
+```
