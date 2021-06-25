@@ -1,6 +1,6 @@
 ## Evento NLW da RocketSeat
 
-## Neste evento eu tive a oportunidade de desenvolver uma aplicação seguindo uma trilha de carreira de desenvolvimento de sistema web com react js nesta trilha fizemos uma ótima aplicação que foi uma sala de chat onde varias pessoas podem ter acesso e partindo de um usuário que é o administrador que a cria sala outras pessoas podem entra e fazer quantas perguntas quiserem e fico bem legal por que eu pode ver como o react realmente funciona na pratica, eu pretendo continuar estudando o react quero usar para desenvolver novas aplicações. 
+## Neste evento eu tive a oportunidade de desenvolver uma aplicação seguindo uma trilha de carreira de desenvolvimento de sistema web com react js nesta trilha fizemos uma ótima aplicação que foi uma sala de chat onde varias pessoas podem ter acesso e partindo de um usuário que é o administrador que, cria sala e outras pessoas podem entra e fazer quantas perguntas quiserem, fico bem legal por que eu pude ver como o react realmente funciona na pratica, eu pretendo continuar estudando o react quero usar para desenvolver novas aplicações. 
 
 ## Assuntos abordados: 
 * Introdução ao React 
